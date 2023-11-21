@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 0px 8%;
+}
+/*  */
+
+/* header start */
+
+/*  */
+header{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo img{
+    width: 50px;
+}header .menu-bar img{
+    width: 50px;
+    display: none;
+}
+nav{
+    width: 70%;
+
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+}
+nav ul li{
+    padding: 0px 15px;
+
+}
+nav ul li a{
+    text-align: right;
+    color:black;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+nav ul li a:hover{
+    color: #fb5283;
+}
+/*  */
+
+/* header end */
+
+/*  */
+
+
+
+/*  */
+
+/* col-l start */
+
+/*  */
+.col-l{
+    width: 50%;
+    float:left ;
+    height: 80vh;
+    padding-top:200px ;
+    padding-left: 40px;
+}
+.col-l h1{
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-size: 90px;
+}
+.col-l h4{
+    text-transform: capitalize;
+    color: #625f5e;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+.col-l .bar{
+    width: 15px;
+    height: 300px;
+    background-color: rgb(14, 210, 245);
+    position: absolute;
+    left: 160px;
+}
+.col-l p{
+    color: #c1bdc1;
+    font-size: 20px;
+}
+.col-l h5{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0px;
+    letter-spacing: 1px;
+
+}
+.col-l button{
+    padding: 13px 50px;
+    background:linear-gradient(#fb5283,#ff3527) ;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid white;
+}
+
+.col-l button img{
+    display: none;
+    
+}
+.col-l button :hover img{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.col-r{
+    width: 50%;
+    float: right;
+}

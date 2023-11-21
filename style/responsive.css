@@ -1,0 +1,17 @@
+@media screen and (max-width:700px) {
+    nav{
+        width: 50%;
+
+    
+    }
+
+    nav ul li a{
+        text-align: right;
+        text-transform: capitalize;
+        display: block;
+    
+    }nav ul li{
+
+    
+    }
+}
