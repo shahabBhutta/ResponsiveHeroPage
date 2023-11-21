@@ -85,9 +85,9 @@ nav ul li a:hover{
     letter-spacing: 0.5px;
 }
 .col-l .bar{
-    width: 15px;
+    width: 12px;
     height: 300px;
-    background-color: rgb(14, 210, 245);
+    background-color: rgba(103, 14, 245, 0.332);
     position: absolute;
     left: 160px;
 }
@@ -97,38 +97,95 @@ nav ul li a:hover{
 }
 .col-l h5{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 40px;
     margin: 20px 0px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 
+
+}
+.col-l h5 span{
+    color: rgb(35, 249, 7);
 }
 .col-l button{
     padding: 13px 50px;
-    background:linear-gradient(#fb5283,#ff3527) ;
+    background:linear-gradient( to right, #fb5283,#ff3527) ;
     border-radius: 10px;
     color: white;
     font-weight: 600;
-    border: 1px solid white;
+    border: 0;
+    cursor: pointer;
+    transition: width 0.5s;
+
 }
 
 .col-l button img{
+    width: 30px;
     display: none;
-    
+
 }
-.col-l button :hover img{
+
+.col-l button:hover img{
     display: block;
 }
+.col-l button:hover {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-
-
-
-
-
-
-
+}
 
 
 .col-r{
     width: 50%;
     float: right;
+    display: flex;
+    justify-content: center;
+
+}
+.col-r .hero-img img{
+    width: 800px;
+    padding-top: 100px;
+    padding-right: 20px;
+}
+.col-r .hero-img img:hover{
+    transform: scale(1.1);
+}
+.col-r .bg-card {
+	width: 33%;
+	height: 500px;
+    background: linear-gradient(#fb5283,#ff3527);
+	position: absolute;
+	z-index: -2;
+	border-radius: 20px;
+	top: 200px;
+	/* left: 519px; */
+	transform: translateX(250px);
+
+}
+.col-r .add-btn {
+	margin-top: 307px;
+	color: wheat;
+}
+.col-r .add-btn{
+position: absolute;
+transform: translateX(450px);
+}
+.col-r .add-btn img{
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
+.col-r .add-btn img:hover{
+    transform: scale(1.2);
+
+
+}
+.col-r .add-btn p{
+    text-transform: capitalize;
+
+
+}
+.col-r .add-btn p small{
+font-size: 20px;
 }
